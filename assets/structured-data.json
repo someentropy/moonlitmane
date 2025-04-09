@@ -1,50 +1,60 @@
 {
-    "@context": "https://schema.org",
-    "@type": "HairSalon",
-    "name": "Moonlit Mane",
-    "image": "https://moonlitmane.co.za/assets/images/Logo.jpg",
-    "url": "https://moonlitmane.co.za",
-    "telephone": "+27829503829",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Glencairn",
-      "addressRegion": "Simon's Town",
-      "addressCountry": "ZA"
-    },
-    "geo": {
-      "@type": "GeoCoordinates"
-    },
-    "openingHoursSpecification": {
+  "@context": "https://schema.org",
+  "@type": "HairSalon",
+  "name": "Moonlit Mane",
+  "image": "https://moonlitmane.co.za/assets/images/Logo.jpg",
+  "url": "https://moonlitmane.co.za",
+  "telephone": "+27829503829",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Glencairn",
+    "addressRegion": "Simon's Town",
+    "postalCode": "7975",
+    "addressCountry": "ZA"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -34.1667,
+    "longitude": 18.4333
+  },
+  "openingHoursSpecification": [
+    {
       "@type": "OpeningHoursSpecification",
       "dayOfWeek": [
         "Monday",
         "Tuesday",
         "Wednesday",
         "Thursday",
-        "Friday",
-        "Saturday"
+        "Friday"
       ],
       "opens": "09:00",
       "closes": "18:00"
     },
-    "priceRange": "$$",
-    "sameAs": [],
-    "description": "Moonlit Mane offers expert hair extensions, hair loss treatments, and beauty services in Glencairn – Simon's Town.",
-    "makesOffer": [
-      {
-        "@type": "Offer",
-        "name": "Hair Extensions",
-        "description": "Premium hair extension services including Keratin Bond, Tape-In, and Micro-Ring Extensions"
-      },
-      {
-        "@type": "Offer",
-        "name": "Hair Loss Solutions",
-        "description": "Specialized treatments for hair loss including Scalp Analysis, Hair Restoration, and Hair Integration Systems"
-      },
-      {
-        "@type": "Offer",
-        "name": "Styling and Colour Services",
-        "description": "Expert styling and colour treatments including Cut and Style, Colour Services, and Brazilian/Botox Treatments"
-      }
-    ]
-  }
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "09:00",
+      "closes": "15:00"
+    }
+  ],
+  "priceRange": "$$",
+  "sameAs": [],
+  "description": "Moonlit Mane offers expert hair extensions, hair loss treatments, and beauty services in Glencairn – Simon's Town.",
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "name": "Hair Extensions",
+      "description": "Premium hair extension services including Keratin Bond, Tape-In, and Micro-Ring Extensions"
+    },
+    {
+      "@type": "Offer",
+      "name": "Hair Loss Solutions",
+      "description": "Specialized treatments for hair loss including Scalp Analysis, Hair Restoration, and Hair Integration Systems"
+    },
+    {
+      "@type": "Offer",
+      "name": "Styling and Colour Services",
+      "description": "Expert styling and colour treatments including Cut and Style, Colour Services, and Brazilian/Botox Treatments"
+    }
+  ]
+}
