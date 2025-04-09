@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
+Disallow: /private/
 
 Sitemap: https://moonlitmane.co.za/sitemap.xml
+
+# Optimize crawl budget
+Crawl-delay: 10

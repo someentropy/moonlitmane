@@ -4,27 +4,13 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       
-        <title>Moonlit Mane | Hair Extensions, Hair Loss & Beauty – Glencairn, Simon’s Town</title>
-        <meta name="description" content="Moonlit Mane offers expert hair extensions, hair loss treatments, and beauty services in Glencairn – Simon’s Town. Book with Claudia today!" />
+        <title>Moonlit Mane | Hair Extensions, Hair Loss & Beauty – Glencairn, Simon's Town</title>
+        <meta name="description" content="Moonlit Mane offers expert hair extensions, hair loss treatments, and beauty services in Glencairn – Simon's Town. Book with Claudia today!" />
         <meta name="keywords" content="Hair Extensions, Hair Loss, Beauty, Hair Studio, Simon's Town, Glencairn, Claudia Hair, Cape Town Hair, Keratin Bonds, GHD Styling, Highlights" />
         <meta name="author" content="Moonlit Mane" />
       
         <!-- Canonical link -->
         <link rel="canonical" href="https://moonlitmane.co.za/" />
-      
-        <!-- Open Graph for Facebook, WhatsApp, LinkedIn -->
-        <meta property="og:title" content="Moonlit Mane | Hair Extensions & Beauty Studio in Glencairn" />
-        <meta property="og:description" content="Claudia offers expert hair extensions, hair loss solutions, and premium beauty services in Simon's Town." />
-        <meta property="og:image" content="https://moonlitmane.co.za/assets/images/og-image.jpg" />
-        <meta property="og:url" content="https://moonlitmane.co.za" />
-        <meta property="og:type" content="website" />
-
-        <!-- Twitter Card -->
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Moonlit Mane | Hair Extensions & Beauty" />
-        <meta name="twitter:description" content="Luxury hair studio in Glencairn – Book with Claudia today!" />
-        <meta name="twitter:image" content="https://moonlitmane.co.za/assets/images/og-image.png" />
-
       
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet">
@@ -33,89 +19,95 @@
         <link rel="stylesheet" href="styles/style.css" />
       
         <!-- Favicon -->
-        <!--<link rel="icon" type="image/png" href="assets/images/logo.jpg" /> -->
         <link rel="icon" type="image/x-icon" href="assets/images/favicon.png" />
 
-      </head>
+        <!-- Async script loading -->
+        <script async src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+    </head>
       
 <body>
     <hr style="border: none; border-top: 1px solid #444; margin: 0;">
 
     <div id="specials-section" class="hidden"></div>
 
+    <!-- New Navigation Section - Placed right after the specials section -->
+    <header style="background-color: black; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+        <div style="max-width: 1000px; margin: 0 auto; padding: 16px 20px; display: flex; justify-content: space-between; align-items: center;">
+            <a href="/" style="font-size: 1.4rem; font-weight: bold; color: #d4af37; text-decoration: none;">
+                <h1 style="font-size: 1.4rem; margin: 0;">Moonlit Mane</h1>
+            </a>
+            <nav style="display: flex; gap: 20px;" aria-label="Main Navigation">
+                <a href="/" style="font-size: 0.9rem; color: white; text-decoration: none; transition: color 0.2s;">Home</a>
+                <a href="/services.html" style="font-size: 0.9rem; color: white; text-decoration: none; transition: color 0.2s;">Services</a>
+                <a href="/contact.html" style="font-size: 0.9rem; color: white; text-decoration: none; transition: color 0.2s;">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-  <header class="hero">
-    <img src="assets/images/Logo.jpg" alt="Moonlit Mane Logo" class="logo" />
-    
-    <h1>Moonlit Mane</h1>
-    <p>Hair Extensions • Hair Loss • Hair Restoriation • Hair Integration Systems</p>
-    <a href="tel:0829503829" class="cta">Call Claudia</a>
-  </header>
+    <header class="hero">
+        <img src="assets/images/Logo.jpg" alt="Moonlit Mane Hair Studio Logo" class="logo" />
+        
+        <h1>Moonlit Mane</h1>
+        <p>Hair Extensions • Hair Loss • Hair Restoriation • Hair Integration Systems</p>
+        <a href="tel:0829503829" class="cta">Call Claudia</a>
+    </header>
 
-  <section class="about">
-    <h2>Welcome to Moonlit Mane</h2>
-    <p>We specialize in hair extensions, hair loss treatments, and premium beauty services tailored to empower you to feel your best. Run by Claudia, a true artisan of hair and beauty.</p>
-  </section>
+    <main>
+        <section class="about">
+            <h2>Welcome to Moonlit Mane</h2>
+            <p>We specialize in hair extensions, hair loss treatments, and premium beauty services tailored to empower you to feel your best. Run by Claudia, a true artisan of hair and beauty.</p>
+        </section>
 
-  <section class="services">
-    <h2>Our Services</h2>
-    <ul>
-      <li>Hair Extensions</li>
-      <li>Hair Loss Solutions</li>
-      <li>Scalp Treatments</li>
-      <li>Custom Styling</li>
-      <li>Colour Services</li>
-      <li>Brazilian/Botox Services</li>
-    </ul>
-  </section>
+        <section class="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Hair Extensions</li>
+                <li>Hair Loss Solutions</li>
+                <li>Scalp Treatments</li>
+                <li>Custom Styling</li>
+                <li>Colour Services</li>
+                <li>Brazilian/Botox Services</li>
+            </ul>
+        </section>
 
-  <section class="feature-grid">
-    <div class="feature-card">
-      <img src="assets/images/cut.jpg" alt="Cut and Style">
-      <h3>Cut & Style</h3>
-    </div>
-    <div class="feature-card">
-      <img src="assets/images/hairloss.jpg" alt="Hair Loss Solutions">
-      <h3>Hair Loss</h3>
-    </div>
-    <div class="feature-card">
-      <img src="assets/images/colour.jpg" alt="Colour Services">
-      <h3>Colour Services</h3>
-    </div>
-    <div class="feature-card">
-      <img src="assets/images/extensions.jpg" alt="Hair Extensions">
-      <h3>Extensions</h3>
-    </div>
-  </section>
-  <!--
-  <section class="booking-banner">
-    <h2>Book an Appointment Now</h2>
-    <p>Claudia <a href="tel:0829503829">082 950 3829</a><br>Glencairn – Simon’s Town</p>
-  </section>
-  -->
-  <section class="price-list">
-    <h2>Our Services & Pricing</h2>
-    <div class="price-columns" id="price-list"></div>
-  </section>
-  
-  
+        <section class="feature-grid">
+            <div class="feature-card">
+                <img src="assets/images/cut.jpg" alt="Professional Hair Cutting and Styling Services" />
+                <h3>Cut & Style</h3>
+            </div>
+            <div class="feature-card">
+                <img src="assets/images/hairloss.jpg" alt="Hair Loss Treatment and Consultation" />
+                <h3>Hair Loss</h3>
+            </div>
+            <div class="feature-card">
+                <img src="assets/images/colour.jpg" alt="Professional Hair Colour and Highlights" />
+                <h3>Colour Services</h3>
+            </div>
+            <div class="feature-card">
+                <img src="assets/images/extensions.jpg" alt="Hair Extensions Application and Styling" />
+                <h3>Extensions</h3>
+            </div>
+        </section>
 
-  <section class="contact">
-    <h2>Book an Appointment</h2>
-    <p>
-        📞 <a href="tel:0829503829">Call Claudia</a> &nbsp;|&nbsp;
-        💬 <a href="https://wa.me/27829503829" target="_blank">WhatsApp Claudia</a>
-      </p>
-      <p>082 950 3829</p>
-      
-  </section>
+        <section class="price-list">
+            <h2>Our Services & Pricing</h2>
+            <div class="price-columns" id="price-list"></div>
+        </section>
 
-  <footer>
-    <p>&copy; 2025 Moonlit Mane • Designed with ❤️ by Mark</p>
-  </footer>
+        <section class="contact">
+            <h2>Book an Appointment</h2>
+            <p>
+                📞 <a href="tel:0829503829">Call Claudia</a> &nbsp;|&nbsp;
+                💬 <a href="https://wa.me/27829503829" target="_blank">WhatsApp Claudia</a>
+            </p>
+            <p>082 950 3829</p>
+        </section>
+    </main>
 
-  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+    <footer>
+        <p>&copy; 2025 Moonlit Mane • Designed with ❤️ by Mark</p>
+    </footer>
 
-  <script src="scripts/main.js"></script>
+    <script src="scripts/main.js"></script>
 </body>
 </html>
