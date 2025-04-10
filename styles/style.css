@@ -1,10 +1,11 @@
 /* Fonts & Resets */
 body {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    color: #fff;
-    background: linear-gradient(to right, #2e2e2e, #1a1a1a);
-  }
+  margin: 0;
+  font-family: 'Roboto', sans-serif, Arial, Helvetica, sans-serif;
+  color: #fff;
+  background: linear-gradient(to right, #2e2e2e, #1a1a1a);
+}
+
   
   h1, h2 {
     font-family: 'Playfair Display', serif;
@@ -14,14 +15,20 @@ body {
     text-align: center;
     padding: 3rem 1rem;
     background: #000;
-  }
+    min-height: 300px;
+}
   
 
   
   .hero h1 {
+    font-family: 'Playfair Display', serif;
     font-size: 3rem;
-    margin: 0.5rem 0;
-  }
+    font-weight: 700;
+    line-height: 1.2;
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+}
+
   
   .hero p {
     font-size: 1.2rem;
