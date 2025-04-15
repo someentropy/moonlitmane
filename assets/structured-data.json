@@ -17,6 +17,33 @@
     "latitude": -34.1667,
     "longitude": 18.4333
   },
+  "areaServed": [
+    {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": -34.1667,
+        "longitude": 18.4333
+      },
+      "geoRadius": 15000 // 15km radius, adjust as needed
+    },
+    {
+      "@type": "City",
+      "name": "Simon's Town"
+    },
+    {
+      "@type": "City",
+      "name": "Fish Hoek"
+    },
+    {
+      "@type": "City",
+      "name": "Noordhoek"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Cape Town"
+    }
+  ],
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
