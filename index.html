@@ -28,8 +28,8 @@
     <!-- Favicon -->
     <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" />
 
-    <!-- Async script loading -->
-    <script async src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+    <!-- Ensure Papaparse is loaded synchronously -->
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
 
     <!-- json ld -->
     <script async src="/scripts/jsonld-loader.js"></script>
@@ -98,7 +98,7 @@
 
         <section class="price-list">
             <h2>Our Services & Pricing</h2>
-            <div class="price-columns" id="price-list"></div>
+            <div class="price-columns" id="pricelist"></div>
         </section>
 
         <section class="contact">
